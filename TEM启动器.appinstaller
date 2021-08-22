@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器.appinstaller"
+	Version="0.1.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="TEM-luncher-Build-715100-zhaozishuo"
+		Version="0.1.0.0"
+		Publisher="CN=zhaozishuo"
+		Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/TEM启动器_0.1.0.0_x86_x64_arm_Debug.msixbundle" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.UI.Xaml.2.6"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/x86/Microsoft.UI.Xaml.2.6.appx"
+			Version="2.62106.23002.0" />
+		<Package
+			Name="Microsoft.UI.Xaml.2.6"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/x64/Microsoft.UI.Xaml.2.6.appx"
+			Version="2.62106.23002.0" />
+		<Package
+			Name="Microsoft.UI.Xaml.2.6"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="arm"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/arm/Microsoft.UI.Xaml.2.6.appx"
+			Version="2.62106.23002.0" />
+		<Package
+			Name="Microsoft.NET.CoreRuntime.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/x86/Microsoft.NET.CoreRuntime.2.2.appx"
+			Version="2.2.29713.2" />
+		<Package
+			Name="Microsoft.NET.CoreRuntime.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/x64/Microsoft.NET.CoreRuntime.2.2.appx"
+			Version="2.2.29713.2" />
+		<Package
+			Name="Microsoft.NET.CoreRuntime.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="arm"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/arm/Microsoft.NET.CoreRuntime.2.2.appx"
+			Version="2.2.29713.2" />
+		<Package
+			Name="Microsoft.NET.CoreFramework.Debug.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/x86/Microsoft.NET.CoreFramework.Debug.2.2.appx"
+			Version="2.2.29301.2" />
+		<Package
+			Name="Microsoft.NET.CoreFramework.Debug.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/x64/Microsoft.NET.CoreFramework.Debug.2.2.appx"
+			Version="2.2.29301.2" />
+		<Package
+			Name="Microsoft.NET.CoreFramework.Debug.2.2"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="arm"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/arm/Microsoft.NET.CoreFramework.Debug.2.2.appx"
+			Version="2.2.29301.2" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.Debug"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="arm"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/arm/Microsoft.VCLibs.ARM.Debug.14.00.appx"
+			Version="14.0.30035.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.Debug"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/x64/Microsoft.VCLibs.x64.Debug.14.00.appx"
+			Version="14.0.30035.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.Debug"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="file:///F:/code_project/VScode_project/TEM启动器/AppPackages/TEM启动器_0.1.0.0_Debug_Test/Dependencies/x86/Microsoft.VCLibs.x86.Debug.14.00.appx"
+			Version="14.0.30035.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
